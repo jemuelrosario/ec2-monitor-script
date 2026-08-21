@@ -1,8 +1,8 @@
 import boto3
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
 from instance import Instance
 
-umbral = timedelta(hours=1)
+
 
 def obtain_instances():
     ec2 = boto3.client('ec2')
