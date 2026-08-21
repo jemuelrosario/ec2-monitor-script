@@ -43,4 +43,4 @@ ec2-monitor-script/
 
 ## Possible extensions
 1. An upgrade that permits the script to send you an email if any of the instances exceed the limit running time.
-2. 
+2. Expand the script so it can manage different AWS resources besides EC2.
